@@ -6,11 +6,11 @@
 
     <groupId>iperf3.parser</groupId>
     <artifactId>iperf3parser</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 
     <properties>
         <maven.compiler.source>15</maven.compiler.source>
-        <maven.compiler.target>15</maven.compiler.target>
+        <maven.compiler.target>11</maven.compiler.target>
     </properties>
 
     <dependencies>

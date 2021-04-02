@@ -15,13 +15,9 @@ fun main(params: Array<String>) {
     // for parsing JSON files in root/data directory of project
     // args.addAll(getNames())
 
-    files.addAll(readFiles(getNames()).toMutableList())
-
-    if (args.isNotEmpty()) {
-        files.addAll(readFiles(args.toList()))
-    }
-
     if(args.isNotEmpty()) {
+
+        files.addAll(readFiles(args.toList()))
 
         val mapper = jacksonObjectMapper()
 
