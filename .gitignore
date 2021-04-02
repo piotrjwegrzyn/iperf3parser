@@ -1,0 +1,5 @@
+data/
+.idea/
+target/
+iperf3parser.iml
+src/test/
