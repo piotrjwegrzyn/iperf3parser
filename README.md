@@ -8,7 +8,7 @@ This program can read iperf3 (version 3.9) JSON outputs so you are able to quick
 
 ### Example JAR
 
-To test parsing your JSONs files you can simply run `.jar` file from [there](https://mega.nz/file/MX4mDaTZ#YPqBtO4_1dCMe3LbFccIBo9C9aiKIkHZqpR0dALps5M).
+To test parsing your JSONs files you can simply run `.jar` file from [there](https://github.com/piotrjwegrzyn/iperf3parser/releases).
 To do this (on Linux) type in terminal:
 ```
 java -jar iperf3parser.jar <your_file.json> <another_file.json>
